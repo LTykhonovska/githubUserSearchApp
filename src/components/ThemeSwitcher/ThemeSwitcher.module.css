@@ -1,0 +1,17 @@
+.themeSwitcher {
+    display: flex;
+    align-items: center;
+    color: var(--font-secondary);
+    cursor: pointer;
+}
+
+.themeSwitcher span {
+    margin-right: 8px;
+    font-size: 18px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.themeSwitcher svg {
+    font-size: 18px;
+}

@@ -1,0 +1,105 @@
+.userInfo {
+    background-color: var(--section-bg);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.userInfoHeader {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 30px;
+}
+
+.userInfoHeader img {
+    display: block;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 30px;
+}
+
+.userInfoHeader h5 {
+    color: var(--font-secondary);
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.userInfoHeader h6 {
+    color: var(--accent);
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+}
+
+.userInfoHeader span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.userInfoText {
+    margin-bottom: 30px;
+}
+
+.userInfoStatistics {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--app-bg);
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.userInfoStatistics h4 {
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 5px;
+}
+
+.userInfoStatistics span {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--font-secondary);
+}
+
+.userInfoSocials li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.userInfoSocials svg {
+    color: var(--font-secondary);
+    margin-right: 15px;
+    font-size: 21px;
+}
+
+.userInfoSocials a {
+    color: var(--font-main);
+    font-size: 16px;
+}
+
+@media (max-width: 500px) {
+    .userInfo {
+        padding: 20px 10px;
+    }
+
+    .userInfoHeader img {
+        width: 80px;
+        height: 80px;
+        margin-right: 10px;
+    }
+
+    .userInfoHeader h5 {
+        margin-bottom: 0;
+    }
+
+    .userInfoHeader span {
+        letter-spacing: -1px;
+    }
+}
